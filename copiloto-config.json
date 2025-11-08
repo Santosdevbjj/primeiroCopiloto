@@ -1,0 +1,83 @@
+{
+  "copilotName": "Assistente de Viagens Inteligente",
+  "description": "Copiloto criado no Microsoft Copilot Studio para auxiliar usuários no planejamento de viagens, com foco em segurança, documentação e organização.",
+  "createdBy": "Sergio",
+  "createdAt": "2025-11-08T03:49:00Z",
+  "language": "pt-BR",
+  "topics": [
+    {
+      "name": "Planejamento de Viagem",
+      "triggerPhrases": [
+        "Quero planejar uma viagem",
+        "Planejar viagem",
+        "Organizar viagem"
+      ],
+      "variables": ["destino", "data_partida"],
+      "steps": [
+        {
+          "type": "message",
+          "text": "Qual o destino da sua viagem?"
+        },
+        {
+          "type": "input",
+          "variable": "destino"
+        },
+        {
+          "type": "message",
+          "text": "Qual a data de partida?"
+        },
+        {
+          "type": "input",
+          "variable": "data_partida"
+        },
+        {
+          "type": "message",
+          "text": "Ótimo! Você está planejando uma viagem para {{destino}} em {{data_partida}}. Deseja ajuda com hospedagem ou documentos?"
+        }
+      ]
+    },
+    {
+      "name": "Documentos Necessários",
+      "triggerPhrases": [
+        "Quais documentos preciso para viajar?",
+        "Documentos para viagem",
+        "Preciso de visto?"
+      ],
+      "variables": ["pais_destino"],
+      "steps": [
+        {
+          "type": "message",
+          "text": "Qual o país de destino?"
+        },
+        {
+          "type": "input",
+          "variable": "pais_destino"
+        },
+        {
+          "type": "message",
+          "text": "Para viajar para {{pais_destino}}, você precisa de passaporte válido e, dependendo do país, visto de turismo. Deseja ajuda para solicitar o visto?"
+        }
+      ]
+    },
+    {
+      "name": "Dicas de Segurança",
+      "triggerPhrases": [
+        "Dicas de segurança para viagens",
+        "Como viajar com segurança?",
+        "Segurança em viagens"
+      ],
+      "steps": [
+        {
+          "type": "message",
+          "text": "Aqui estão algumas dicas de segurança:\n1. Mantenha seus documentos em local seguro.\n2. Evite andar sozinho à noite em locais desconhecidos.\n3. Tenha cópias digitais dos seus documentos.\n4. Informe-se sobre os números de emergência do país."
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "generativeAnswers": true,
+    "languageDetection": true,
+    "fallbackTopic": "Desculpe, não entendi. Pode reformular sua pergunta?",
+    "analyticsEnabled": true
+  }
+}
