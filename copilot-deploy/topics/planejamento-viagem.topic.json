@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schemas.microsoft.com/powerapps/2020/03/bot/topic.schema.json",
+  "id": "planejamento-viagem",
+  "name": "Planejamento de Viagem",
+  "triggerPhrases": [
+    "Quero planejar uma viagem",
+    "Planejar viagem",
+    "Organizar viagem"
+  ],
+  "steps": [
+    {
+      "kind": "SendActivity",
+      "activity": "Qual o destino da sua viagem?"
+    },
+    {
+      "kind": "AskQuestion",
+      "property": "destino",
+      "question": "Informe o destino:"
+    },
+    {
+      "kind": "SendActivity",
+      "activity": "Qual a data de partida?"
+    },
+    {
+      "kind": "AskQuestion",
+      "property": "data_partida",
+      "question": "Informe a data:"
+    },
+    {
+      "kind": "SendActivity",
+      "activity": "Ótimo! Você está planejando uma viagem para {{destino}} em {{data_partida}}. Deseja ajuda com hospedagem ou documentos?"
+    }
+  ]
+}
