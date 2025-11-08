@@ -107,8 +107,8 @@ O conteúdo aprendido está documentado em [`resumo-aprendizado.md`](resumo-apre
    ```bash
    git clone https://github.com/Santosdevbjj/primeiroCopiloto.git
 
-```
-   ---
+
+   
 
    
 2. Acesse o portal do Copilot Studio
