@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Planejamento de Viagem",
+    "trigger_phrases": ["Quero planejar uma viagem", "Planejar viagem", "Organizar viagem"],
+    "steps": [
+      {
+        "type": "message",
+        "text": "Qual o destino da sua viagem?"
+      },
+      {
+        "type": "input",
+        "variable": "destino"
+      },
+      {
+        "type": "message",
+        "text": "Qual a data de partida?"
+      },
+      {
+        "type": "input",
+        "variable": "data_partida"
+      },
+      {
+        "type": "message",
+        "text": "Ótimo! Você está planejando uma viagem para {{destino}} em {{data_partida}}. Deseja ajuda com hospedagem ou documentos?"
+      }
+    ]
+  },
+  {
+    "name": "Documentos Necessários",
+    "trigger_phrases": ["Quais documentos preciso para viajar?", "Documentos para viagem", "Preciso de visto?"],
+    "steps": [
+      {
+        "type": "message",
+        "text": "Qual o país de destino?"
+      },
+      {
+        "type": "input",
+        "variable": "pais_destino"
+      },
+      {
+        "type": "message",
+        "text": "Para viajar para {{pais_destino}}, você precisa de passaporte válido e, dependendo do país, visto de turismo. Deseja ajuda para solicitar o visto?"
+      }
+    ]
+  },
+  {
+    "name": "Dicas de Segurança",
+    "trigger_phrases": ["Dicas de segurança para viagens", "Como viajar com segurança?", "Segurança em viagens"],
+    "steps": [
+      {
+        "type": "message",
+        "text": "Aqui estão algumas dicas de segurança:\n1. Mantenha seus documentos em local seguro.\n2. Evite andar sozinho à noite em locais desconhecidos.\n3. Tenha cópias digitais dos seus documentos.\n4. Informe-se sobre os números de emergência do país."
+      }
+    ]
+  }
+]
