@@ -118,7 +118,7 @@ O conteúdo aprendido está documentado em [`resumo-aprendizado.md`](resumo-apre
 ---
 
 
-🛠️ **Como usar copilot-fluxos.json**
+🛠️ **Como usar: copilot-fluxos.json**
 
 1. Acesse o Microsoft Copilot Studio
 2. Crie um novo copiloto ou abra um existente
@@ -128,6 +128,15 @@ O conteúdo aprendido está documentado em [`resumo-aprendizado.md`](resumo-apre
 
 
 ---
+🛠️ **Arquivo copiloto-config.json**
+
+Esse arquivo foi incluído no repositório como documentação da configuração do copiloto. Ele não é um arquivo de importação direta no Copilot Studio, mas serve como blueprint para recriar os tópicos e fluxos com fidelidade.
+
+
+
+
+---
+
 
 
 📚 **Referências**
