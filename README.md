@@ -12,7 +12,7 @@
 
 # 🤖 Criando seu Primeiro Copiloto com Microsoft Copilot Studio
 
-Este projeto documenta, de forma prática e didática, a criação de um copiloto inteligente utilizando o **Microsoft Copilot Studio**. O objetivo é construir um agente conversacional capaz de interagir com usuários, automatizar tarefas e oferecer suporte em planejamento de viagens.
+Este projeto documenta, de forma prática, a criação de um copiloto inteligente utilizando o **Microsoft Copilot Studio**. O objetivo é construir um agente conversacional capaz de interagir com usuários, automatizar tarefas e oferecer suporte em planejamento de viagens.
 
 ---
 
