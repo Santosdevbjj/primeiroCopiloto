@@ -24,7 +24,7 @@ Este projeto documenta, de forma prática, a criação de um copiloto inteligent
 
 ---
 
-## 🧠 Objetivo do Projeto
+##  Objetivo do Projeto
 
 Desenvolver um copiloto funcional com os seguintes recursos:
 
@@ -104,7 +104,7 @@ Contém os arquivos necessários para importar o copiloto:
 
 Documento com reflexões sobre o processo de criação, principais aprendizados e aplicações futuras.
 
-### 🧠 copiloto-config.json
+###  copiloto-config.json
 
 Arquivo que representa a configuração estrutural do copiloto, incluindo tópicos, variáveis, gatilhos e mensagens.
 
