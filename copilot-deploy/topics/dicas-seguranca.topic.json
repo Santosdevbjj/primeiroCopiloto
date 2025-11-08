@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.microsoft.com/powerapps/2020/03/bot/topic.schema.json",
+  "id": "dicas-seguranca",
+  "name": "Dicas de Segurança",
+  "triggerPhrases": [
+    "Dicas de segurança para viagens",
+    "Como viajar com segurança?",
+    "Segurança em viagens"
+  ],
+  "steps": [
+    {
+      "kind": "SendActivity",
+      "activity": "Aqui estão algumas dicas de segurança:\n1. Mantenha seus documentos em local seguro.\n2. Evite andar sozinho à noite em locais desconhecidos.\n3. Tenha cópias digitais dos seus documentos.\n4. Informe-se sobre os números de emergência do país."
+    }
+  ]
+}
