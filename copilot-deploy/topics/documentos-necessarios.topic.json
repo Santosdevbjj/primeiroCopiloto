@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.microsoft.com/powerapps/2020/03/bot/topic.schema.json",
+  "id": "documentos-necessarios",
+  "name": "Documentos Necessários",
+  "triggerPhrases": [
+    "Quais documentos preciso para viajar?",
+    "Documentos para viagem",
+    "Preciso de visto?"
+  ],
+  "steps": [
+    {
+      "kind": "SendActivity",
+      "activity": "Qual o país de destino?"
+    },
+    {
+      "kind": "AskQuestion",
+      "property": "pais_destino",
+      "question": "Informe o país para onde deseja viajar:"
+    },
+    {
+      "kind": "SendActivity",
+      "activity": "Para viajar para {{pais_destino}}, você precisa de passaporte válido e, dependendo do país, visto de turismo. Deseja ajuda para solicitar o visto?"
+    }
+  ]
+}
