@@ -60,33 +60,12 @@ Desenvolver um copiloto funcional com os seguintes recursos:
 ## 📁 Estrutura do Projeto
 
 
+<img width="926" height="929" alt="Screenshot_20251108-102519" src="https://github.com/user-attachments/assets/5eb4b574-e731-43a2-a22f-74ab86509edd" />
 
----
 
-Projeto
 
-`
-primeiroCopiloto/
-│
-├── imagens/                          # Capturas de tela do processo
-│   ├── tela-inicial.png              # Tela de boas-vindas do Copilot Studio
-│   ├── modelo-safe-travels.png       # Seleção do modelo Safe Travels
-│   ├── configuracao-fluxo.png        # Edição de tópicos e fluxos
-│   └── publicacao.png                # Tela de publicação do copiloto
-│
-├── copilot-deploy/                   # Estrutura para automação via CLI
-│   ├── bot.bot                       # Definição do bot e seus tópicos
-│   └── topics/
-│       ├── planejamento-viagem.topic.json
-│       ├── documentos-necessarios.topic.json
-│       └── dicas-seguranca.topic.json
-│
-├── deploy-copilot.ps1               # Script PowerShell para automação de deploy
-├── resumo-aprendizado.md           # Reflexões e aprendizados do projeto
-├── copiloto-config.json            # Blueprint da configuração do copiloto
-├── copilot-fluxos.json             # Exportação dos fluxos em formato genérico
-└── README.md                       # Este arquivo
-`
+
+
 
 ---
 
