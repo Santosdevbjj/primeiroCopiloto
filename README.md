@@ -117,6 +117,19 @@ O conteúdo aprendido está documentado em [`resumo-aprendizado.md`](resumo-apre
 
 ---
 
+
+🛠️ **Como usar copilot-fluxos.json**
+
+1. Acesse o Microsoft Copilot Studio
+2. Crie um novo copiloto ou abra um existente
+3. Vá até a aba Tópicos
+4. Crie novos tópicos manualmente com base nesse JSON
+5. Para automação avançada, use o Power Virtual Agents para importar fluxos via API ou Dataverse
+
+
+---
+
+
 📚 **Referências**
 
 - Documentação Oficial do Microsoft Copilot Studio
