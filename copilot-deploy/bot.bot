@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.microsoft.com/powerapps/2020/03/bot/bot.schema.json",
+  "name": "Assistente de Viagens Inteligente",
+  "description": "Copiloto para planejamento de viagens com foco em segurança e documentação.",
+  "defaultLocale": "pt-BR",
+  "topics": [
+    {
+      "id": "planejamento-viagem",
+      "file": "topics/planejamento-viagem.topic.json"
+    },
+    {
+      "id": "documentos-necessarios",
+      "file": "topics/documentos-necessarios.topic.json"
+    },
+    {
+      "id": "dicas-seguranca",
+      "file": "topics/dicas-seguranca.topic.json"
+    }
+  ]
+}
